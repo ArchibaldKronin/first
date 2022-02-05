@@ -1,0 +1,26 @@
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu a:link, #menu a:visited {
+    text-decoration: none;
+    color: blue;
+    border: 1px solid #1A31A2;
+    font: 13px Arial;
+    padding: 5px;
+}
+
+#menu a:hover, #menu a.active {
+    color: white;
+    background-color: #484848;
+    border-color: black;
+}
